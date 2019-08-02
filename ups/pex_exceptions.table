@@ -1,6 +1,4 @@
 setupRequired(base)
-setupRequired(boost)
-setupRequired(pybind11)
 setupRequired(python)
 
 envPrepend(LD_LIBRARY_PATH, ${PRODUCT_DIR}/lib)
